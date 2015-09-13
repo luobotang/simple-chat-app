@@ -54,6 +54,9 @@ button {
 	padding-right: 10px;
 	color: #66f;
 }
+.message-mine .message-from {
+	color: #f63;
+}
 .message-content {
-	color: #999;
+	
 }

@@ -48,6 +48,7 @@ function handleMessage(message) {
 	switch (message.type) {
 		case MessageTypes.Chat:
 			var p = document.createElement('p')
+			p.className = message.user === UserName ? 'message-mine' : 'message-others'
 			p.innerHTML = renderMessage(message)
 			$messages.insertBefore(p, $messages.firstChild)
 			break
