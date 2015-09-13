@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px/2 arial, "Microsoft Yahei", sans-serif;
+	color: #333;
+}
+
+.container {
+	padding: 20px 0;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#message {
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline: none;
+}
+#message:focus {
+	box-shadow: inset 0 0 5px #ccc;
+}
+.cmds {
+	margin: 10px 0;
+	text-align: right;
+}
+button {
+	padding: 0 10px;
+	line-height: 2;
+}
+
+.message-from {
+	padding-right: 10px;
+	color: #66f;
+}
+.message-content {
+	color: #999;
+}
